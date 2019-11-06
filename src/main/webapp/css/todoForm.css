@@ -1,0 +1,62 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.addForm {
+	position: absolute;
+	padding-bottom: 10px;
+	left: 40%
+}
+
+.addTable {
+	width: 400px;
+}
+
+.formHead {
+	text-align: center;
+}
+
+.titleInput {
+	width: 400px;
+}
+
+.titleInput, .nameInput {
+	margin-top: 5px;
+	padding: 10px;
+}
+
+.tableTD {
+	font-size: medium;
+	color: gray;
+}
+
+.tableTR {
+	padding-bottom: 25px;
+}
+
+.formLeftBtn {
+	height: 35px;
+	width: 120px;
+	text-align: center;
+	font-size: 15px;
+	text-decoration-line: underline;
+}
+
+.formRightBtn {
+	float: right;
+}
+
+.formBtn {
+	height: 35px;
+	width: 120px;
+	background: #20adee;
+	color: white;
+	border: none;
+}
+
+.tableRadio {
+	margin-left: 25px;
+}

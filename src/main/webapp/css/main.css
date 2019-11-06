@@ -1,0 +1,67 @@
+.typeTodo {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+	margin-top: 40px;
+    overflow: auto;
+}
+
+.headerleft {
+    font-size: 2em;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    color: #345461;
+    font-weight: bold;
+}
+
+.addBtn {
+    float: right;
+    width: 209px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    background: #20adee;
+    margin: 40px 0px 15px 0;
+    margin-right: 14%;
+}
+
+.content {
+    display: flex;
+    position: absolute;
+    left: 15%;
+}
+
+.todoTop {
+    background: #345461;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    width: 392px;
+}
+
+.todoTitle {
+    margin-bottom: 10px;
+}
+
+.todoContent {
+    background: #cee5ef;
+    padding: 2px 10px 18px 10px;
+    margin-top: 10px;
+}
+
+.changeBtn {
+    cursor: pointer;
+    float: right;
+}
+
+.todotab {
+    font-weight: bold;
+    color: gray;
+}
